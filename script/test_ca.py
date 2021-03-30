@@ -93,7 +93,7 @@ class TestHuanShaouLv:
     @allure.step(title="已开户用户点击转入股票,进入转入股票详情页面")
     def test_04(self):
         self.page.market_page_lm().go_to_mine_page()
-        self.page.mine_page_lm().log_in_correct_account("10020680000", "lm123456")
+        self.page.mine_page_lm().log_in_correct_account("10501642300", "lm123456")
         self.page.turn_to_money_page_lm().turn_into_stock()
         try:
             transfer_stock_page_result = self.page.turn_to_money_page_lm().get_transfer_stock_page_result()
