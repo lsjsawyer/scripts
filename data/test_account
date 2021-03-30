@@ -1,0 +1,20 @@
+account_001:
+  account: "10501642300"
+  passwd: "lm123456"
+  expect_data: "请您进行客户身份信息安全认证"
+account_002:
+  account: "10501642301"
+  passwd: "lm123456"
+  expect_data: "请您进行客户身份信息安全认证"
+account_003:
+  account: "10501642302"
+  passwd: "lm123456"
+  expect_data: "请您进行客户身份信息安全认证"
+account_004:
+  account: "10020680000"
+  passwd: "lm123456"
+  merchants_data: "需先在香港招商网银申请开通"
+account_005:
+  account: "10120683380"
+  passwd: "lm123456"
+  merchants_data: "需先在香港招商网银申请开通"
